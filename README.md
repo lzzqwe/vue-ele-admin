@@ -1,29 +1,29 @@
-# admin
+## 使用vue+node.js(express)搭建的简单的增删改查后台管理系统
 
-## Project setup
-```
-npm install
-```
+#### 使用了以下技术
 
-### Compiles and hot-reloads for development
++ element ui
++ scss
++ mongoose
++ vue2.6
+
+#### 启动前端
+
 ```
+//先安装依赖
+npm i
+//运行前端
 npm run serve
 ```
 
-### Compiles and minifies for production
+#### 启动后端
+
 ```
-npm run build
+进入server文件夹
+cd server
+//先安装依赖
+npm i
+//运行前端
+npm run serve
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
